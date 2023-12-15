@@ -24,8 +24,8 @@ export const Title = styled.h3`
 
 export const Description = styled.p`
     font-size: 14px;
-    margin-bottom: 16px;
     line-height: 22px;
+    margin-bottom: 16px;
 `
 
 export const ButtonLink = styled(Link)`
@@ -35,10 +35,14 @@ export const ButtonLink = styled(Link)`
     border: none;
     cursor: pointer;
     text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
 `
 
 export const CardContainer = styled.div`
-    padding: 8px;
+    padding: 7px;
     border: 1px solid ${colors.rose};
     border-top: none;
 `
@@ -54,6 +58,7 @@ export const Tag = styled.span`
     background-color: ${colors.rose};
     color: ${colors.white};
     font-size: 12px;
+    line-height: 14px;
     padding: 6px 4px;
     display: block;
     position: absolute;
@@ -71,4 +76,5 @@ export const Rate = styled.span`
 export const RateDiv = styled.div`
     display: flex;
     align-items: center;
+    justify-content: center;
 `

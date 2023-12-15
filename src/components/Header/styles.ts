@@ -8,10 +8,10 @@ export const HeaderContainer = styled.header`
     background-size: cover;
     background-repeat: no-repeat;
     height: 384px;
-    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 64px;
 `
 
 

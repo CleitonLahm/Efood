@@ -7,21 +7,17 @@ export const Card = styled.div`
     background-color: ${colors.rose};
     width: 320px;
     max-height: 100%;
-
-    > div {
-        max-height: 100%;
-    }
 `
 export const ProductImg = styled.img`
     width: 304px;
     height: 167px;
-    margin-bottom: 8px;
 `
 export const Title = styled.h3`
     font-weight: 900;
     font-size: 16px;
     line-height: 19px;
     margin-bottom: 8px;
+    margin-top: 4px;
     color: ${colors.beige};
 `
 
@@ -40,6 +36,7 @@ export const AddCart = styled.button`
     width: 100%;
     border: none;
     padding: 4px;
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 16px;
     font-size: 14px;
 `
